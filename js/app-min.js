@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",function(){function e(){window.location.href="index.html"}const d=document.getElementById("video1"),n=document.getElementById("video2"),t=document.getElementById("video3");d.addEventListener("ended",e,!1),n.addEventListener("ended",e,!1),t.addEventListener("ended",e,!1)});
+document.addEventListener("DOMContentLoaded",function(){function e(){window.location.href="index.html"}const n=document.getElementById("video");n&&n.addEventListener("ended",e,!1)});
